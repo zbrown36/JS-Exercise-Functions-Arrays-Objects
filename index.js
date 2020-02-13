@@ -77,7 +77,7 @@ function getName(object) {
  *         and returns a string like `Hello, my name is {name}`.
  *         where `{name}` is the name passed into `makeSmartPerson`.
 */
-function makeSmartPerson(/* code here */) {
+function makeSmartPerson(name) {
   /* code here */
 }
 
