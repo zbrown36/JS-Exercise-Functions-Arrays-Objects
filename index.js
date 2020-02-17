@@ -256,7 +256,7 @@ function getOlderCars(inventory, max_year) {
   for (let i = 0; i < inventory.length; i++){
 
     if (inventory[i].car_year < max_year +1){
-      olderCars.push(inventory[i].car_year);
+      olderCars.push(inventory[i]);
     }
   }
   return olderCars;
